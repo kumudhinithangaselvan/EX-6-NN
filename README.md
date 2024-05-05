@@ -1,10 +1,11 @@
-<H3>ENTER YOUR NAME : KUMUDHINI T</H3>
-<H3>ENTER YOUR REGISTER NO: 212222040084</H3>
-<H3>EX. NO.6</H3>
-<H3>DATE:5.5.2024</H3>
-<H1 ALIGN =CENTER>Heart attack prediction using MLP</H1>
-<H3>Aim:</H3>  To construct a  Multi-Layer Perceptron to predict heart attack using Python
-<H3>Algorithm:</H3>
+## ENTER YOUR NAME : KUMUDHINI T
+## ENTER YOUR REGISTER NO : 212222040084
+## EX. NO.6
+## DATE:
+#  Heart attack prediction using MLP
+### Aim:  
+To construct a  Multi-Layer Perceptron to predict heart attack using Python
+### Algorithm:
 Step 1:Import the required libraries: numpy, pandas, MLPClassifier, train_test_split, StandardScaler, accuracy_score, and matplotlib.pyplot.<BR>
 Step 2:Load the heart disease dataset from a file using pd.read_csv().<BR>
 Step 3:Separate the features and labels from the dataset using data.iloc values for features (X) and data.iloc[:, -1].values for labels (y).<BR>
@@ -16,8 +17,7 @@ Step 8:Make predictions on the testing set using mlp.predict(X_test).<BR>
 Step 9:Evaluate the model's accuracy by comparing the predicted labels (y_pred) with the actual labels (y_test) using accuracy_score().<BR>
 Step 10:Print the accuracy of the model.<BR>
 Step 11:Plot the error convergence during training using plt.plot() and plt.show().<BR>
-
-<H3>Program: </H3>
+### Program: 
 ```PY
 import numpy as np
 import pandas as pd
@@ -59,16 +59,20 @@ print(conf_matrix)
 print("\nClassification Report:")
 print(classification_rep)
 ```
-
-<H3>Output:</H3>
-
-![image](https://github.com/kumudhinithangaselvan/EX-6-NN/assets/119394027/e97b61b5-df30-46c2-a787-da6d773afd1a)
-
-![image](https://github.com/kumudhinithangaselvan/EX-6-NN/assets/119394027/e68363f5-57d7-4f52-9ba4-e5ae6b25a064)
-
-![image](https://github.com/kumudhinithangaselvan/EX-6-NN/assets/119394027/5afebe96-c874-4c85-96e5-9c2f785d170b)
+### Output:
 
 
+![image](https://github.com/kumudhinithangaselvan/EX-6-NN/assets/119394027/6de92868-32be-4ac5-a943-a6479a447856)
 
-<H3>Results:</H3>
+
+![image](https://github.com/kumudhinithangaselvan/EX-6-NN/assets/119394027/d28a6f74-2709-44e7-820c-11e5c35a060b)
+
+
+![image](https://github.com/kumudhinithangaselvan/EX-6-NN/assets/119394027/dbde7b67-8890-41b1-9fd5-d767a4d9e8a2)
+
+
+
+
+
+### Results:
 Thus, an ANN with MLP is constructed and trained to predict the heart attack using python.
