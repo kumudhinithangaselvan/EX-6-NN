@@ -18,7 +18,7 @@ Step 10:Print the accuracy of the model.<BR>
 Step 11:Plot the error convergence during training using plt.plot() and plt.show().<BR>
 
 <H3>Program: </H3>
-
+```PY
 import numpy as np
 import pandas as pd
 from sklearn.neural_network import MLPClassifier
@@ -58,12 +58,14 @@ print("\nConfusion Matrix:")
 print(conf_matrix)
 print("\nClassification Report:")
 print(classification_rep)
-
+```
 
 <H3>Output:</H3>
 
 ![image](https://github.com/kumudhinithangaselvan/EX-6-NN/assets/119394027/e97b61b5-df30-46c2-a787-da6d773afd1a)
+
 ![image](https://github.com/kumudhinithangaselvan/EX-6-NN/assets/119394027/e68363f5-57d7-4f52-9ba4-e5ae6b25a064)
+
 ![image](https://github.com/kumudhinithangaselvan/EX-6-NN/assets/119394027/5afebe96-c874-4c85-96e5-9c2f785d170b)
 
 
