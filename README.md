@@ -1,4 +1,4 @@
-</H3>ENTER YOUR NAME : KUMUDHINI T</H3>
+<H3>ENTER YOUR NAME : KUMUDHINI T</H3>
 <H3>ENTER YOUR REGISTER NO: 212222040084</H3>
 <H3>EX. NO.6</H3>
 <H3>DATE:5.5.2024</H3>
@@ -16,8 +16,8 @@ Step 8:Make predictions on the testing set using mlp.predict(X_test).<BR>
 Step 9:Evaluate the model's accuracy by comparing the predicted labels (y_pred) with the actual labels (y_test) using accuracy_score().<BR>
 Step 10:Print the accuracy of the model.<BR>
 Step 11:Plot the error convergence during training using plt.plot() and plt.show().<BR>
+
 <H3>Program: </H3>
-```
 
 import numpy as np
 import pandas as pd
@@ -59,7 +59,6 @@ print(conf_matrix)
 print("\nClassification Report:")
 print(classification_rep)
 
-```
 
 <H3>Output:</H3>
 
